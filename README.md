@@ -164,11 +164,13 @@ cat newfile | grep -i -c "hello"
 
 grep -R ubuntu /etc
 ## OUTPUT
+<img width="837" height="681" alt="image" src="https://github.com/user-attachments/assets/1babf0b6-ba59-47ce-aa8f-64d96fcfc55e" />
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
+<img width="385" height="72" alt="image" src="https://github.com/user-attachments/assets/4ad8a977-b7e2-4ab2-a6e1-bdc9083d27ae" />
 
 
 cat < newfile 
@@ -180,6 +182,7 @@ Unix is predecessor
 Linux is best in this World
 ^d
 ```
+
 
 cat > newfile
 ```
