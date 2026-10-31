@@ -77,6 +77,8 @@ Hello world
 This is my world
 ^d
 ```
+<img width="300" height="62" alt="image" src="https://github.com/user-attachments/assets/d2be3841-a1b5-432e-b4e2-a8c9baa86e0d" />
+
 cat > file22
 ```
 1001 | Ram | 10000 | HR
@@ -84,21 +86,26 @@ cat > file22
 1003 | Joe |  7000 | Developer
 ^d
 ```
+<img width="315" height="83" alt="image" src="https://github.com/user-attachments/assets/622af192-c998-42c0-b5ea-a2e9dea2eb7f" />
 
 
 cut -c1-3 file11
 ## OUTPUT
+<img width="340" height="68" alt="image" src="https://github.com/user-attachments/assets/437a5f01-eabf-481b-86eb-d12fa18ff276" />
+
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+<img width="397" height="82" alt="image" src="https://github.com/user-attachments/assets/7b24b663-8f46-4b46-8a13-f423f28067c7" />
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+<img width="415" height="85" alt="image" src="https://github.com/user-attachments/assets/a6c6e873-b8e7-42f2-98cb-b059fe918369" />
 
 
 cat < newfile 
@@ -107,17 +114,27 @@ Hello world
 hello world
 ^d
 ````
+<img width="275" height="60" alt="image" src="https://github.com/user-attachments/assets/ffaa2dfb-1e64-4bee-9080-05ed124a3899" />
+
 cat > newfile 
 Hello world
 hello world
- 
+
+<img width="350" height="63" alt="image" src="https://github.com/user-attachments/assets/57ad5696-18ef-4c2b-b5a4-42ba63f31ff5" />
+
+
 grep Hello newfile 
 ## OUTPUT
+
+<img width="352" height="42" alt="image" src="https://github.com/user-attachments/assets/00ccfcfc-08a7-45ee-b677-ac559380e118" />
+
 
 
 
 grep hello newfile 
 ## OUTPUT
+
+<img width="356" height="41" alt="image" src="https://github.com/user-attachments/assets/3d207e83-45ad-4361-adb8-73c4d3c7ab59" />
 
 
 
@@ -125,16 +142,22 @@ grep hello newfile
 grep -v hello newfile 
 ## OUTPUT
 
+<img width="387" height="37" alt="image" src="https://github.com/user-attachments/assets/43e6fa0f-ce33-4c49-bc4d-72b09c5dce52" />
+
+
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+<img width="450" height="65" alt="image" src="https://github.com/user-attachments/assets/374012d4-95d2-476c-b5d0-5418fcfc991b" />
+
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+<img width="493" height="47" alt="image" src="https://github.com/user-attachments/assets/4abef51e-e3f7-4d2e-8755-550bbe818901" />
 
 
 
